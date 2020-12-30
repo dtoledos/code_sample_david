@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color name="colorPrimary">#6200EE</color-->
+    <color name="colorPrimary">#3366ff</color>
+    <!--color name="colorPrimaryDark">#3700B3</color-->
+    <color name="colorPrimaryDark">#3366ff</color>
+    <color name="colorAccent">#3366ff</color>
+    <color name="colorGray">#cccccc</color>
+    <!--color name="colorAccent">#03DAC5</color-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="ghostwhite">#f8f8ff</color>
+
+    <color name="colorWhite2">#f1f3f7</color>
+    <color name="colorCornsilk">#fff8dc</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlue0">#3d73d3</color>
+    <color name="colorBlue1">#3366cc</color>
+    <color name="colorBlue2">#3366ff</color>
+    <color name="colorBlue3">#3399ff</color>
+    <color name="colorBlue4">#2360e8</color>
+    <color name="colorBlue5">#466fc6</color>
+    <color name="colorBlue6">#9999ff</color>
+
+    <color name="colorGray3">#C0C0C0</color>
+    <color name="colorBlueMenu">#0658d1</color>
+    <color name="colorGray1">#A9A9A9</color>
+    <color name="colorGray2">#d0dbf4</color>
+
+    <color name="alpha_cyan2">#80000000</color>
+    <color name="alpha_cyan">#6655aaff</color>
+    <color name="spkt_blue_light">#55aaff</color>
+
+
+    <color name="center_bg">#FFF</color>
+    <color name="center_text">#333</color>
+    <color name="light_gray">#d3d3d3</color>
+    <color name="light_gray2">#e9e9f0</color>
+
+    <color name="white_smoke">#F5F5F5</color>
+
+    <color name="right_text">#FFF</color>
+    <color name="left_bg">#4287ff</color>
+    <color name="left_text">#FFF</color>
+    <color name="colorWhiteText">#f5f7f2</color>
+
+</resources>

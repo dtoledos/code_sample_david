@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite2"
+      >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <RelativeLayout
+                android:id="@+id/rl_back_natuaccident"
+                android:layout_marginTop="0dp"
+                android:paddingStart="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_back_natuaccident"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_width="33dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_back"
+                    android:contentDescription="@string/app_name" />
+
+            </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_earthquake"
+                    android:layout_below="@+id/rl_back_natuaccident"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="40dp"
+                    android:background="@drawable/button_blue2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:elevation="20dp"
+                    >
+
+                        <ImageView
+                            android:id="@+id/iv_earthquake"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_centerVertical="true"
+                            android:layout_width="58dp"
+                            android:tint="@color/change_color1"
+                            android:layout_height="57dp"
+                            android:src="@drawable/ic_earthquake"
+                            android:contentDescription="@string/app_name" />
+
+                        <TextView
+                            android:id="@+id/tv_earthquake"
+                            android:layout_toEndOf="@+id/iv_earthquake"
+                            android:includeFontPadding="false"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/label_earthquake"
+                            android:textColor="@color/change_color1"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            />
+
+                </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_hail"
+                android:layout_below="@+id/rl_earthquake"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/button_blue2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:elevation="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_hail"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_centerVertical="true"
+                    android:tint="@color/change_color1"
+                    android:layout_width="58dp"
+                    android:layout_height="57dp"
+                    android:src="@drawable/ic_hail2"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/tv_hail"
+                    android:layout_toEndOf="@+id/iv_hail"
+                    android:includeFontPadding="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/label_hail"
+                    android:textColor="@color/change_color1"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_fire"
+                android:layout_below="@+id/rl_hail"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/button_blue2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:elevation="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_fire"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="58dp"
+                    android:tint="@color/change_color1"
+                    android:layout_height="57dp"
+                    android:src="@drawable/ic_fire"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/tv_fire"
+                    android:layout_toEndOf="@+id/iv_fire"
+                    android:includeFontPadding="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/label_fire"
+                    android:textColor="@color/change_color1"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_flood"
+                android:layout_below="@+id/rl_fire"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/button_blue2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:elevation="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_flood"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="58dp"
+                    android:tint="@color/change_color1"
+                    android:layout_height="57dp"
+                    android:src="@drawable/ic_flood"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/tv_flood"
+                    android:layout_toEndOf="@+id/iv_flood"
+                    android:includeFontPadding="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/label_flood"
+                    android:textColor="@color/change_color1"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_hurricane"
+                android:layout_below="@+id/rl_flood"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/button_blue2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:elevation="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_hurricane"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="58dp"
+                    android:layout_height="57dp"
+                    android:tint="@color/change_color1"
+                    android:src="@drawable/ic_hurricane"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/tv_hurricane"
+                    android:layout_toEndOf="@+id/iv_hurricane"
+                    android:includeFontPadding="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/label_hurricane"
+                    android:textColor="@color/change_color1"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_tornadoes"
+                android:layout_below="@+id/rl_hurricane"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/button_blue2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:elevation="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_tornadoes"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="58dp"
+                    android:layout_height="57dp"
+                    android:tint="@color/change_color1"
+                    android:src="@drawable/ic_tornadoes"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/tv_tornadoes"
+                    android:layout_toEndOf="@+id/iv_tornadoes"
+                    android:includeFontPadding="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/label_tornadoes"
+                    android:textColor="@color/change_color1"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    />
+
+            </RelativeLayout>
+        </RelativeLayout>
+  </ScrollView>
+</RelativeLayout>

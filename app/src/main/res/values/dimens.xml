@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margen_end_witness_acc">15dp</dimen>
+    <dimen name="nav_header">200dp</dimen>
+    <!--dimen name="nav_header">200dp</dimen-->
+    <dimen name="item_height">72dp</dimen>
+
+
+
+</resources>
+

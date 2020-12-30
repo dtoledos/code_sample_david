@@ -1,0 +1,264 @@
+<resources>
+    <string name="app_name">Free Agent</string>
+    <string name="label_get_started">Get Started</string>
+    <string name="label_already_have_a_account">Already have an account?</string>
+    <string name="label_login">Login</string>
+    <string name="label_forgot_password">Forgot Password</string>
+    <string name="label_witness_something">Witness Something</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_free_agent">Free Agent</string>
+    <string name="label_missing_information">Missing Information</string>
+    <string name="label_missing_email_password">Please enter a valid email and password</string>
+    <string name="label_valid_email">Invalid Email</string>
+    <string name="label_valid_email_desc">Please enter a valid email address</string>
+    <string name="label_user_not_found">User Not Found</string>
+    <string name="label_user_not_found_desc">The email address you entered has not been registered.</string>
+    <string name="label_submit">Submit</string>
+    <string name="label_missing_email">Missing Email</string>
+    <string name="label_missing_email_desc">Please enter the email you registered with.</string>
+    <string name="label_enter_phone">Enter your mobile phone number</string>
+    <string name="label_enter_phone_hint">(990)3734302</string>
+    <string name="label_error_phone_number">Incorrect Phone Number</string>
+    <string name="label_error_phone_number_desc">Please enter your 10 digit phone number including area code</string>
+    <string name="label_next">Next</string>
+    <string name="label_forgot_password_desc">Please enter your registered email address we will get back to you with the reset password link.</string>
+    <string name="label_start_claim">Start A Claim</string>
+    <string name="label_witness_something2">Witness Something?</string>
+    <string name="label_claim_history">Claim History</string>
+    <string name="label_claim_history_desc">Here are your past claims captured with your Free Agent. Issue the report number to your insurance carrier for retrieval</string>
+    <string name="label_profile">Profile</string>
+    <string name="label_what_type_accident">What type of accident\ndid you witness?</string>
+    <string name="label_home">Home</string>
+    <string name="label_auto">Auto</string>
+    <string name="label_business">Business</string>
+    <string name="label_email_sent">Email Sent</string>
+    <string name="label_link_password">Use link in email to reset password</string>
+    <string name="label_other_error">Error</string>
+    <string name="label_other_error_desc">There was an error, please try again</string>
+    <string name="label_password_error">Password Incorrect</string>
+    <string name="label_password_error_desc">Please enter the correct password or reset it.</string>
+    <string name="label_welcome">Welcome.</string>
+    <string name="label_create_an_account">Create an Account</string>
+    <string name="label_name">Name</string>
+    <string name="label_phone_number">Phone Number</string>
+    <string name="label_confirm_password">Confirm Password</string>
+    <string name="label_create_account">Create Account</string>
+    <string name="label_enter_all_fields">Please enter all fields.</string>
+    <string name="label_passsword_mitmatch">Passwords Mismatch</string>
+    <string name="label_passsword_mitmatch_desc">Please make sure your passwords match</string>
+    <string name="label_passsword_weak">Weak Password</string>
+    <string name="label_passsword_weak_desc">Password must be atleast 6 characters</string>
+    <string name="label_network_error">Network Error</string>
+    <string name="label_network_error_desc">Not Internet Connection</string>
+    <string name="label_already_registered">Already Registered</string>
+    <string name="label_already_registered_desc">This email is already registered</string>
+    <string name="label_mypolicies">My Policies</string>
+    <string name="label_mypolicies_desc">Store your policy information here for easy access.</string>
+    <string name="label_signout">Sign Out</string>
+    <string name="label_navigation_drawer_title"></string>
+    <string name="label_save_changes">Save Changes</string>
+    <string name="label_change_password">Change Password</string>
+    <string name="label_accountID">Account ID</string>
+    <string name="label_address">Address</string>
+    <string name="label_city">City</string>
+    <string name="label_state">State</string>
+    <string name="label_country">Country</string>
+    <string name="label_format_date">mm-dd-yyyy</string>
+
+    <string name="label_january">January</string>
+    <string name="label_february">February</string>
+    <string name="label_march">March</string>
+    <string name="label_april">April</string>
+    <string name="label_may">May</string>
+    <string name="label_june">June</string>
+    <string name="label_july">July</string>
+    <string name="label_august">August</string>
+    <string name="label_september">September</string>
+    <string name="label_october">October</string>
+    <string name="label_november">November</string>
+    <string name="label_december">December</string>
+
+    <string name="label_current_password">Current Password</string>
+    <string name="label_new_password">New Password</string>
+    <string name="label_sucess">Success!</string>
+    <string name="label_sucess2">Success</string>
+    <string name="label_password_update">Your password has been updated.</string>
+    <string name="label_add">Add</string>
+    <string name="label_report">Report#</string>
+    <string name="label_policy">Policy#</string>
+    <string name="label_notordered">Not Ordered</string>
+    <string name="label_ordered">Ordered</string>
+    <string name="label_policyType">Policy Type</string>
+    <string name="label_insurance_carrier">Insurance Carrier</string>
+    <string name="label_policy_number">Policy Number</string>
+    <string name="label_policy_name">Name on Policy</string>
+    <string name="label_policy_date">Expiration (mm-dd-yyyy)</string>
+    <string name="label_save">Save</string>
+    <string name="label_startaclaim_desc">Select one below to get started with your claim</string>
+    <string name="label_yes">Yes</string>
+    <string name="label_no">No</string>
+    <string name="label_was_this_catastrofe">Was this accident due to a catastrophe?</string>
+    <string name="label_earthquake">Earthquake</string>
+    <string name="label_hail">Hail</string>
+    <string name="label_fire">Fire</string>
+    <string name="label_flood">Flood</string>
+    <string name="label_hurricane">Hurricane</string>
+    <string name="label_tornadoes">Tornadoes</string>
+    <string name="label_editpolicy">Edit Policy</string>
+    <string name="label_addpolicy">Add Policy</string>
+    <string-array name="policy_type">
+        <item>@string/label_auto</item>
+        <item>@string/label_business</item>
+        <item>@string/label_home</item>
+    </string-array>
+
+    <string name="title_policy_saved">Your Policy information upload was successful!</string>
+
+    <string name="title_nopolicies">-No Policies Added-</string>
+    <string name="title_nopolicies_desc">After you add your first policy it will display here.</string>
+
+    <string name="title_noclaims">-No Claims Recorded-</string>
+    <string name="title_noclaim_desc">After you add your claim it will display here.</string>
+
+    <!--Witness Something?-->
+    <string name="title_take_photo01">Take photos of what you see please.</string>
+    <string name="title_take_photo_video02">In your own words tell us what happened.</string>
+    <string name="title_image">Image</string>
+    <string name="title_video">Video</string>
+    <string name="title_finish">Finish</string>
+
+    <!--Start A claim Home,Business, NO Or YEs?-->
+    <string name="title_take_photo001">Take a photo of the front of your %1$s please.</string>
+    <string name="title_take_photo002">Take photos of the damages to the outside of your %1$s please.</string>
+    <string name="title_take_photo003">Take photos of the damages inside your %1$s please.</string>
+    <string name="title_take_photo004">Take photos of the damaged items inside your %1$s.</string>
+    <string name="title_take_photo_video_001">In your own words tell us what happened.</string>
+    <string name="title_take_photo006">Take photos of any receipts you may have please.</string>
+
+    <!--Start A claim Auto, NO -->
+    <string name="title_take_photo001_auto">Take photos of your vehicles damages at the scene please.</string>
+    <string name="title_take_photo002_auto">Take photos of the VIN number located on the bottom left of windshield.</string>
+    <string name="title_take_photo003_auto">Take photos of your license plate please.</string>
+    <string name="title_take_photo004_auto">If applicable please take a photo of your speedometer cluster.</string>
+    <string name="title_take_photo005_auto_video">In your own words tell us what happened.</string>
+    <string name="title_take_photo006_auto">Take photos of all other drivers policy information.</string>
+    <string name="title_take_photo007_auto">Take photos of the other vehicle damages at the scene.</string>
+    <string name="title_take_photo008_auto">Take photos of the VIN number located on the bottom left of windshield.</string>
+    <string name="title_take_photo009_auto">Take photos of their license plate(s).</string>
+
+
+    <string name="label_mediasubject_image_claimb_auto_no_1">usersVehicle</string>
+    <string name="label_mediasubject_image_claimb_auto_no_2">usersVIN</string>
+    <string name="label_mediasubject_image_claimb_auto_no_3">usersLicensePlate</string>
+    <string name="label_mediasubject_image_claimb_auto_no_4">usersSpeedometer</string>
+    <string name="label_mediasubject_video_claimb_auto_no_1">userVideo</string>
+    <string name="label_mediasubject_image_claimb_auto_no_6">otherDriversPolicy</string>
+    <string name="label_mediasubject_image_claimb_auto_no_7">otherDriversDamages</string>
+    <string name="label_mediasubject_image_claimb_auto_no_8">otherDriversVIN</string>
+    <string name="label_mediasubject_image_claimb_auto_no_9">otherDriversLicensePlate</string>
+
+    <!--Start A claim Auto, YES -->
+    <string name="title_take_photo001_auto_yes">Take photos of your vehicles damages at the scene please.</string>
+    <string name="title_take_photo002_auto_yes">Take photos of the VIN number located on the bottom left of windshield.</string>
+    <string name="title_take_photo003_auto_yes">Take photos of your license plate please.</string>
+    <string name="title_take_photo004_auto_yes">If applicable please take a photo of your speedometer cluster.</string>
+    <string name="title_take_photo005_auto_yes_video">In your own words tell us what happened.</string>
+
+    <string name="label_mediasubject_image_claimb_auto_yes_1">usersVehicle</string>
+    <string name="label_mediasubject_image_claimb_auto_yes_2">usersVIN</string>
+    <string name="label_mediasubject_image_claimb_auto_yes_3">usersLicensePlate</string>
+    <string name="label_mediasubject_image_claimb_auto_yes_4">usersSpeedometer</string>
+    <string name="label_mediasubject_video_claimb_auto_yes_1">userVideo</string>
+
+
+    <string name="title_take_message">You must add least one image and one video to create a claim.</string>
+    <string name="title_take_photo6">Take photos of any receipts you may have please.</string>
+    <string name="label_back">Back</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_report_complete">Report Complete!</string>
+    <string name="label_report_complete_desc">Thank you for your help! A Carrier may contact you for your help.</string>
+    <string name="label_share_your_claim">Share your claim #</string>
+
+    <string name="label_share_email_msg_number">Thank you for using Free Agent. Here is your recent report Number %1$s </string>
+
+    <string name="title_claim_detail">Claim Detail</string>
+    <string name="title_claim_type">Claim Type:</string>
+    <string name="title_order_status">Order Status:</string>
+    <string name="title_claim_id">Claim ID:</string>
+    <string name="title_claim_date">Date:</string>
+    <string name="title_order_report">Order Report</string>
+    <string name="label_copy_clipboard">Copied to clipboard</string>
+    <string name="label_delete">Delete</string>
+
+    <string name="label_gps_message">Thank you for downloading our app!\nThis is a tool built to guide you through all the steps needed to obtain store and supply information
+    for your Insurance Company in any claim you may have in the future. In order to do this effectively adnd help you prove the validity of your claim we record the exact location
+    each photo and video was taken.\nBy agreeing I authorize Free Agent to auto locate my device while using this app.
+    </string>
+    <string name="title_i_agree">I Agree</string>
+    <string name="title_please_turn_gps_msg">Please turn on your locations services for Free Agent.</string>
+    <string name="title_please_permission_gps_msg">Thank you for downloading our app!.\n\nThis is a tool built to guide you through all the steps needed to obtain store and supply information
+        for your Insurance Company in any claim you may have in the future. In order to do this effectively and help you prove the validity of your claim we record the exact location each photo
+        and video was taken.\n\nBy agreeing I authorize Free Agent to auto locate my device while using this app.
+    </string>
+
+    <!--Witness-->
+    <string name="label_businessWitness">businessWitness</string>
+    <string name="label_autoWitness">autoWitness</string>
+    <string name="label_homeWitness">homeWitness</string>
+
+    <!--Catastrophe-->
+    <string name="label_homeHailCatastrophe">homeHailCatastrophe</string>
+    <string name="label_autoHailCatastrophe">autoHailCatastrophe</string>
+    <string name="label_businessHailCatastrophe">businessHailCatastrophe</string>
+
+    <string name="label_homeEarthquakeCatastrophe">homeEarthquakeCatastrophe</string>
+    <string name="label_autoEarthquakeCatastrophe">autoEarthquakeCatastrophe</string>
+    <string name="label_businessEarthquakeCatastrophe">businessEarthquakeCatastrophe</string>
+
+    <string name="label_homeFireCatastrophe">homeFireCatastrophe</string>
+    <string name="label_autoFireCatastrophe">autoFireCatastrophe</string>
+    <string name="label_businessFireCatastrophe">businessFireCatastrophe</string>
+
+    <string name="label_homeFloodCatastrophe">homeFloodCatastrophe</string>
+    <string name="label_autoFloodCatastrophe">autoFloodCatastrophe</string>
+    <string name="label_businessFloodCatastrophe">businessFloodCatastrophe</string>
+
+    <string name="label_homeHurricaneCatastrophe">homeHurricaneCatastrophe</string>
+    <string name="label_businessHurricaneCatastrophe">businessHurricaneCatastrophe</string>
+    <string name="label_autoHurricaneCatastrophe">autoHurricaneCatastrophe</string>
+
+    <string name="label_homeTornadoCatastrophe">homeTornadoCatastrophe</string>
+    <string name="label_businessTornadoCatastrophe">businessTornadoCatastrophe</string>
+    <string name="label_autoTornadoCatastrophe">autoTornadoCatastrophe</string>
+
+
+    <!--Non Catastrophe-->
+    <string name="label_homeNonCatastrophe">homeNonCatastrophe</string>
+    <string name="label_autoNonCatastrophe">autoNonCatastrophe</string>
+    <string name="label_businessNonCatastrophe">businessNonCatastrophe</string>
+
+    <string name="label_free_agent_report_number">Free Agent Report Number</string>
+
+    <!--Video and Image Subject Witness-->
+    <string name="label_mediasubject_video_witness">witnessVideo</string>
+    <string name="label_mediasubject_video_claim">userVideo</string>
+    <string name="label_mediasubject_image_witness">whatWitnessSaw</string>
+
+    <!--Image and Video  Subject Claimb-->
+    <string name="label_mediasubject_image_claimb_1">frontOf%1$s</string>
+    <string name="label_mediasubject_image_claimb_2">damageOutside%1$s</string>
+    <string name="label_mediasubject_image_claimb_3">damageInside%1$s</string>
+    <string name="label_mediasubject_image_claimb_4">itemsInside%1$s</string>
+    <string name="label_mediasubject_video_claimb_1">userVideo</string>
+    <string name="label_mediasubject_image_claimb_5">receipts</string>
+
+    <string name="label_finish_upload_claim">Share this report with your carrier and tell them to visit: www.myfreeagent.app</string>
+    <string name="label_share_email_msg">Thank you for using Free Agent. Here is your recent report Number</string>
+
+
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue1"
+    android:gravity="center_vertical"
+    tools:context=".ui.act.FreeAgentGetStartedAct">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_logo_freeagent"
+        android:contentDescription="@string/app_name" />
+
+    <!--ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@+id/iv_logo"
+        android:max="100"
+        android:progress="1"
+        android:indeterminateTint="@android:color/white"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:indeterminate="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:visibility="gone"
+        /-->
+
+    <!--ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:id="@+id/progressBar2"
+        android:visibility="gone"
+        android:progressBackgroundTint="@android:color/white"
+        android:progressTint="@android:color/white"
+        android:layout_below="@+id/iv_logo"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:padding="10dp"
+        android:max="100"
+        android:progress="0"/-->
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:id="@+id/progressBar"
+        android:layout_below="@+id/iv_logo"
+        android:progressBackgroundTint="@color/alpha_cyan"
+        android:progressTint="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:layout_width="180dp"
+        android:layout_height="22dp"
+        android:padding="10dp"
+        android:max="20"
+        android:progress="0"/>
+
+
+</RelativeLayout>

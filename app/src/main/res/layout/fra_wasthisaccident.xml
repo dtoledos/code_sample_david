@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite2"
+      >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <RelativeLayout
+                android:id="@+id/rl_title"
+                android:background="@drawable/welcome_border"
+                android:layout_marginTop="0dp"
+                android:paddingBottom="30dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/iv_back_wa"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_width="33dp"
+                    android:layout_height="60dp"
+                    android:tint="@color/colorWhite"
+                    android:src="@drawable/ic_back"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/tv_was_this_catastrofe"
+                    android:layout_toEndOf="@+id/iv_back_wa"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="-20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_was_this_catastrofe"
+                    android:gravity="center_horizontal"
+                    android:textSize="24sp"
+                    android:textColor="@color/colorWhite"
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_yes_no"
+                android:layout_below="@+id/rl_title"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="30dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/rl_yes"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="20dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_yes"
+                        android:background="@drawable/button_white1"
+                        android:includeFontPadding="false"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/label_yes"
+                        android:textColor="@color/change_color2"
+                        android:textStyle="bold"
+                        android:textSize="28sp"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_no"
+                    android:layout_below="@+id/rl_yes"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="20dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_no"
+                        android:background="@drawable/button_blue1"
+                        android:includeFontPadding="false"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/label_no"
+                        android:textColor="@color/change_color1"
+                        android:textStyle="bold"
+                        android:textSize="28sp"
+                        />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+  </ScrollView>
+</RelativeLayout>

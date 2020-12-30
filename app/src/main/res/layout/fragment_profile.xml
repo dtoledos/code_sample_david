@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:id="@+id/rl_profile"
+            android:paddingBottom="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_accountID"
+            android:background="@drawable/welcome_border"
+            android:layout_marginTop="0dp"
+            android:paddingBottom="30dp"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_accountId"
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_accountID"
+                android:gravity="center_horizontal"
+                android:textSize="14sp"
+                android:alpha="0.7"
+                android:textColor="@color/colorWhite"
+                />
+
+            <TextView
+                android:id="@+id/tv_accountIdValue"
+                android:layout_below="@+id/tv_accountId"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="oEKMuaAjjdshdhsdhsdhsdh"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="@color/colorWhite"
+                />
+
+         </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_form"
+            android:layout_below="@+id/rl_accountID"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edtNameProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:hint="@string/label_name"
+                    android:inputType="text"
+                    android:maxLength="60"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/edtEmalProfile"
+                    android:layout_below="@+id/edtNameProfile"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:hint="@string/label_email"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="60"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/edtPhoneNumberProfile"
+                    android:layout_below="@+id/edtEmalProfile"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:autofillHints=""
+                    android:hint="@string/label_phone_number"
+                    android:inputType="number"
+                    android:maxLength="18"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/edtDateProfile"
+                    android:layout_below="@+id/edtPhoneNumberProfile"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:hint="@string/label_format_date"
+                    android:inputType="none"
+                    android:maxLength="60"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/edtAddressProfile"
+                    android:layout_below="@+id/edtDateProfile"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:hint="@string/label_address"
+                    android:inputType="text"
+                    android:maxLength="200"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/edtStateProfile"
+                    android:layout_below="@+id/edtAddressProfile"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:hint="@string/label_state"
+                    android:inputType="text"
+                    android:maxLength="100"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"/>
+
+
+            <EditText
+                    android:id="@+id/edtCityProfile"
+                    android:layout_below="@+id/edtStateProfile"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:hint="@string/label_city"
+                    android:inputType="text"
+                    android:maxLength="100"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"/>
+
+
+                <EditText
+                    android:id="@+id/edtCountryProfile"
+                    android:layout_below="@+id/edtCityProfile"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:hint="@string/label_country"
+                    android:inputType="text"
+                    android:maxLength="50"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"/>
+         </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_save"
+            android:layout_below="@+id/rl_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginStart="28dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_login"
+            >
+
+            <TextView
+                android:id="@+id/tv_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_save_changes"
+                android:textColor="@color/change_color1"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_change_password"
+            android:layout_below="@+id/rl_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginStart="28dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_change_password"
+            ><!--corner_blue-->
+
+            <TextView
+                android:id="@+id/tv_changepassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_change_password"
+                android:textColor="@color/change_color2"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+        </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_marginTop="5dp"
+                android:indeterminate="true"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                tools:visibility="visible"
+                />
+
+       </RelativeLayout>
+     </ScrollView>
+</RelativeLayout>

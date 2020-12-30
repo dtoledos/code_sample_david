@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "721588814285",
+    "firebase_url": "https://free-agent-e901a.firebaseio.com",
+    "project_id": "free-agent-e901a",
+    "storage_bucket": "free-agent-e901a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721588814285:android:8d4a1db2d42b904432c484",
+        "android_client_info": {
+          "package_name": "com.us.myfree.agent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721588814285-8olrjo1ebg2af5u4k5hj02oklipu1jg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChcY-o9Tt__tDrfXYnKBTxrfoUaCAk7pU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721588814285-8olrjo1ebg2af5u4k5hj02oklipu1jg1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "721588814285-bm4jk12fbr9ansr268l946lmnt4cqlce.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.myfreeagent.FreeAgent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

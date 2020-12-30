@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_main01"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray3"
+    tools:context=".ui.act.FreeAgentGetStartedAct">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_marginTop="5dp"
+        android:indeterminate="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        tools:visibility="visible"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rl_title1"
+                android:background="@drawable/welcome_border"
+                android:layout_marginTop="0dp"
+                android:elevation="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp">
+
+                <ImageView
+                    android:id="@+id/iv_back_mp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:tint="@color/colorWhite"
+                    android:src="@drawable/ic_back"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/tv_add"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_add"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginStart="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_welcome"
+                    android:layout_marginTop="0dp"
+                    android:layout_below="@+id/iv_back_mp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_mypolicies"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginStart="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:includeFontPadding="false"
+                    android:textStyle="bold"
+                    android:textSize="28sp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_subtitle"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/tv_welcome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_mypolicies_desc"
+                    android:textColor="@color/colorBlue6"
+                    android:layout_marginStart="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingBottom="20dp"
+                    android:includeFontPadding="false"
+                    android:textStyle="normal"
+                    android:textSize="14sp"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_form"
+                android:layout_below="@+id/rl_title1"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_notfound"
+                    android:visibility="gone"
+                    android:layout_marginTop="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_nopolicies"
+                    android:textColor="@color/colorBlack"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_notfound_desc"
+                    android:visibility="gone"
+                    android:layout_below="@+id/tv_notfound"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_nopolicies_desc"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginStart="0dp"
+                    android:layout_centerHorizontal="true"
+                    android:includeFontPadding="false"
+                    android:textStyle="normal"
+                    android:textSize="14sp"
+                    />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
